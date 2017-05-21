@@ -31,7 +31,7 @@ summary(USArrests)
 pairs(~Murder+Assault+UrbanPop+Rape,data=USArrests)
 
 clustering.K3 = kmeans(USArrests,3)
-kmeans(USArrests, 3)
+clustering.K3
 
 clustering.K3 <- kmeans(USArrests, 3)
 plot(USArrests, col=clustering.K3$cluster)
